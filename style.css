@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Oslo Stitch';
+    src: url('oslo-stitch.otf') format('opentype');
+}
+
 .main{
     display: flex;
     justify-content: center;
