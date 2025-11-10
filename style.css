@@ -47,11 +47,14 @@
  .button {
     font-family: 'Curely', cursive;
  width: 200px;
- height: 60px;
+ height: 90px;
+ margin-bottom: 20px;
     background-image: url('кнопка.jpg');
     background-size: cover;    /* растянуть на всю кнопку */
     background-position: center; /* центрировать текстуру */
     font-family: 'Curely', cursive;
     font-size: 30px;
    color:rgb(43, 27, 27);
+border-radius: 15px 15px 40px 40px; /* скругленные низкие углы */
+box-shadow: inset 0 -5px 10px rgba(0,0,0,0.2); 
 }
