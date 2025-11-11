@@ -77,3 +77,8 @@ position: relative;
 .button:hover {
     transform: translateY(-3px); /* подъём */
     cursor: pointer; /* курсор-рука */
+}
+    .button:active {
+        color: blue;
+   background-color: #1a0f0f;
+    }
