@@ -9,7 +9,7 @@ let symbols = "0123456789ABCDEF";
 let randomIndex=Math.floor(Math.random()*16);
 color+=symbols[randomIndex];
   }
-
+colorBlock.style.backgroundColor = color;
 }
 
 generateButton.addEventListener('click', getRandomColor);
