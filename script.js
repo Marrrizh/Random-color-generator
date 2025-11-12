@@ -10,6 +10,7 @@ let randomIndex=Math.floor(Math.random()*16);
 color+=symbols[randomIndex];
   }
 colorBlock.style.backgroundColor = color;
+colorCode.textContent = color;
 }
 
 generateButton.addEventListener('click', getRandomColor);
