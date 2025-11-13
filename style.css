@@ -34,6 +34,8 @@
     height: 300px;
     border-radius: 40%;
     background-color: purple;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .sidebar{
@@ -83,6 +85,6 @@ position: relative;
     }
 
     .code {
-       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      font-size: 25px;
     }
